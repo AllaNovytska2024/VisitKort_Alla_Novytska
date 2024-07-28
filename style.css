@@ -1,6 +1,189 @@
 * {
-    text-align: left;
-    /* font-family подключает шрифт к элементу */
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-  }
+  box-sizing: border-box;
+  text-align: left;
+  /* font-family подключает шрифт к элементу */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.rubik-scribble-regular {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.viaoda-libre-regular {
+  font-family: "Viaoda Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charis-sil-regular {
+  font-family: "Charis SIL", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charis-sil-bold {
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.charis-sil-regular-italic {
+  font-family: "Charis SIL", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.charis-sil-bold-italic {
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.salsa-regular {
+  font-family: "Salsa", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.codystar-light {
+  font-family: "Codystar", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.codystar-regular {
+  font-family: "Codystar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url("https://st3.depositphotos.com/1008660/13500/i/600/depositphotos_135009422-stock-photo-winter-background-with-snowy-trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Масштабирует изображение на всю страницу */
+  font-family: "Tangerine", serif;
+  font-size: 17px;
+  text-shadow: 8px 8px 10px #171817;
+  min-width: fit-content;
+  display: grid;
+}
+
+.hello {
+  font-size: 25px;
+  font-family: 'Ga Maamli';
+  color: #e9d971;
+  text-align: left;
+  padding: 10px;
+}
+.surmame{
+  box-sizing: 800pc 800px;
+  font-size: 35px;
+  font-family:"Bungee Spice";
+  color: #f06706;
+  text-align: center;
+}
+.text{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #2c432f;
+  text-align: center;
+}
+.test2{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #2c432f;
+  text-align: center;
+}
+
+.text3{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #06117a;
+  text-align: center;
+
+}
+.parahraph{
+  font-size: 10px;
+}
+
+.hessisch{
+  font-size: 25px;
+  font-family: "Ga Maamli";
+}
+
+.hobbyFrontend{
+  
+  
+  font-family: "Ga Maamli";
+  
+  display: inline-block;
+  padding: 15px;
+  min-width: 1200px 1200px;
+  width: fit-content;
+  margin: 1px; 
+  text-align: center; 
+}
+
+
+
+.fit-content {
+  background-color: rgba(209, 202, 241, 0.955);
+  font-size: 15px;
+  color: beige;
+  display: inline-block;
+  padding: 5px;
+  min-width: 1200px;
+  width: fit-content;
+  
+  
+}
+.socialMedia {
+  background-color: rgba(209, 202, 241, 0.955);
+  font-size: 8px;
+  font-family: "Ga Maamli";
+  color: rgba(33, 22, 53, 0.41);
+  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  min-width: 1330px;
+  width: fit-content;
+  box-sizing: border-box;
+  
+}
+.name {
+  color: rgba(18, 81, 108, 0.864);
+  font-size: 15px;
+  font-family: "Bungee Spice";
+  text-align: left;
+  display: inline-block;
+  padding: 5px;
+  min-width: 1200px;
+  width: fit-content;
+}
